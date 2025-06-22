@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ecbcbc;
+    color: #cdbee5;
+    padding: 30px;
+    text-align: center;
+}
+
+/* BEM correcto para el encabezado */
+.main-header__title {
+    font-size: 32px;
+    color: #360a53;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección que contiene los componentes */
+.components {
+    text-align: center;
+}
+
+/* Cada bloque (componente individual) */
+.components__block {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.components__block:hover {
+    transform: scale(1.05);
+}
+
+/* Título de cada componente */
+.components__title {
+    font-size: 20px;
+    color: #21092b;
+    margin-bottom: 10px;
+}
+
+/* Enlace del componente */
+.components__block a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #aa72cf;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.components__block a:hover {
+    background-color: #d92ed0;
+}
+
+/* Responsividad sin flex ni grid */
+@media screen and (max-width: 600px) {
+    .components__block {
+        width: 90%;
+    }
+}

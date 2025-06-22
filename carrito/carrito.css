@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 40px;
+    margin: 0;
+}
+
+/* Contenedor del resumen */
+.cart-summary {
+    background-color: #fff;
+    width: 260px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Título del resumen */
+.cart-summary__title {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}
+
+/* Ítems individuales */
+.cart-summary__item {
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 0.95em;
+}
+
+/* Total destacado */
+.cart-summary__total {
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 1em;
+    color: #222;
+    text-align: right;
+}

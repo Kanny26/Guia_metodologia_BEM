@@ -1,0 +1,50 @@
+/* Estilo global del cuerpo */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar vertical en el lado izquierdo */
+.sidebar {
+    position: fixed;             /* Fija a la pantalla */
+    top: 0;
+    left: 0;
+    height: 100vh;               
+    width: 200px;
+    padding: 20px;
+    background-color: #2d1e2f;  
+    color: #fff;
+    border-right: 1px solid #444;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+}
+
+/* Título del menú */
+.sidebar__title {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+}
+
+/* Lista de navegación */
+.sidebar__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Ítems del menú */
+.sidebar__item {
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #f876ff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover sobre ítems */
+.sidebar__item:hover {
+    background-color: #3f51b5;
+    color: #fff;
+}

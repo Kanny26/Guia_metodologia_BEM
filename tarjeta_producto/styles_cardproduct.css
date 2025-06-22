@@ -1,0 +1,90 @@
+/* CSS - Componente Tarjeta de Producto */
+
+/* Estilos para la tarjeta de producto */
+.tarjeta-producto {
+    position: relative;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: white;
+}
+
+/* Estilos para la imagen del producto */
+.tarjeta-producto__imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Estilos para el contenido de la tarjeta */
+.tarjeta-producto__contenido {
+    padding: 16px;
+}
+
+/* Estilos para el título del producto */
+.tarjeta-producto__titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    color: #333;
+}
+
+/* Estilos para la descripción del producto */
+.tarjeta-producto__descripcion {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 12px 0;
+    line-height: 1.4;
+}
+/* Estilos para el precio del producto */
+.tarjeta-producto__precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 16px 0;
+}
+/* Estilos para el precio con descuento */
+.tarjeta-producto__precio--descuento {
+    color: #27ae60;
+}
+
+/* Estilos para el precio antiguo */
+.tarjeta-producto__precio-antiguo {
+    font-size: 16px;
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+
+/* Estilos para el botón de la tarjeta */
+.tarjeta-producto__boton {
+    width: 100%;
+    padding: 12px;
+    background: #057a63;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilos para el estado hover del botón */
+.tarjeta-producto__boton:hover {
+    background: #29b9a1;
+}
+
+/* Estilos para la etiqueta "nuevo" del producto */
+.tarjeta-producto__etiqueta {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.tarjeta-producto__etiqueta--nuevo {
+    background: #27ae60;
+}

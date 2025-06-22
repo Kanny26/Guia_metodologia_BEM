@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+    margin: 0;
+}
+
+/* Contenedor del selector */
+.category-selector {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Título */
+.category-selector__title {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+/* Lista de categorías */
+.category-selector__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Ítems individuales */
+.category-selector__item {
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #af6a6a;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efecto hover */
+.category-selector__item:hover {
+    background-color: #dceeff;
+    color: #004488;
+}

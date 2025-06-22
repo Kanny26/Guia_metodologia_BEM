@@ -1,0 +1,27 @@
+/* Fondo general */
+body {
+    background-color: #f0f0f0;
+    padding: 40px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor del reproductor */
+.video-player {
+    width: 50%;
+    max-width: 420px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ccc;
+}
+
+/* Estilo del video */
+.video-player__video {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}

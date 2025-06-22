@@ -1,0 +1,14 @@
+.alert {
+    padding: 10px;
+    border: 1px solid transparent;
+    width: 300px;
+}
+
+.alert__message {
+    margin: 0;
+}
+
+.alert--success {
+    background: #e0ffe0;
+    border-color: rgb(98, 191, 98);
+}
