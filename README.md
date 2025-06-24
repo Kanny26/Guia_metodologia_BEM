@@ -7,7 +7,8 @@ Este repositorio contiene una colección de componentes web desarrollados siguie
 
 El repositorio incluye múltiples componentes, cada uno ubicado en su propia carpeta:
 
-🧩 Componentes trabajados
+🧩 Componentes trabajados: 
+
 -Alerta
 -Calificaciones
 -Carrito de compras
