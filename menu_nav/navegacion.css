@@ -5,7 +5,7 @@ h2{
     margin-bottom: 1rem; 
 }
 .nav { 
-    background-color: #1e1e2f; 
+    background-color: #A76545; 
     padding: 1rem 2rem; 
 }
 
@@ -29,7 +29,7 @@ h2{
 /* Estilo al pasar el cursor sobre el enlace */
 .nav__link:hover {
     color: #ffcc00;           
-    border-bottom: 2px solid #ffcc00; /* Aparece una línea inferior amarilla */
+    border-bottom: 2px solid #328E6E; /* Aparece una línea inferior amarilla */
 }
 
 /* Modificador: estilo para el enlace activo */

@@ -1,11 +1,13 @@
 .alert {
-    padding: 10px;
+    margin: 25px;
+    padding: 20px;
     border: 1px solid transparent;
     width: 300px;
 }
 
 .alert__message {
     margin: 0;
+    text-align: center;
 }
 
 .alert--success {

@@ -1,32 +1,37 @@
-/* Contenedor de calificaciones */
+/*Estilos para la card que contiene*/
 .lista-calificaciones {
     list-style: none;
     padding: 0;
     margin: 40px auto;
     width: fit-content;
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #e6abb7;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     padding: 10px 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-/* Nota individual */
-.lista-calificaciones__nota {
-    display: block;
+    text-align: left;
     font-size: 20px;
-    color: rgb(55, 89, 140);
-    margin: 0 4px;
+    color: rgb(255, 255, 255);
 }
 
-/* Notas vacías */
-.lista-calificaciones__nota--vacía {
-    color: #754a4a;
+/*contenido de calificacion*/
+.calificacion-item {
+    display: inline-block;
 }
 
-/* Efecto hover */
-.lista-calificaciones__nota:hover {
+/*estilos para el radio*/
+.radio__calificacion {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 10px;   
+    
+}
+
+/*estilos para cuando se pase el cursor encima de la calificacion*/
+.radio__calificacion:hover {
     transform: scale(1.2);
     transition: transform 0.2s;
 }
+
+

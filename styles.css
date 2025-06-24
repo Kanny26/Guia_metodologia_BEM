@@ -1,16 +1,16 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #ecbcbc;
+    background-color: #EEEFE0;
     color: #cdbee5;
     padding: 30px;
     text-align: center;
 }
 
-/* BEM correcto para el encabezado */
+/*Encabezado*/
 .main-header__title {
     font-size: 32px;
-    color: #360a53;
+    color: #4ca786;
     margin-bottom: 10px;
 }
 
@@ -23,7 +23,7 @@ body {
 .components__block {
     display: inline-block;
     vertical-align: top;
-    background-color: white;
+    background-color: #A7C1A8;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     width: 300px;
@@ -34,6 +34,7 @@ body {
     transition: transform 0.3s ease;
 }
 
+/*Al pasar sobre la card su tamaños se ve ligeramente movido*/
 .components__block:hover {
     transform: scale(1.05);
 }
@@ -41,7 +42,7 @@ body {
 /* Título de cada componente */
 .components__title {
     font-size: 20px;
-    color: #21092b;
+    color: #1a7654;
     margin-bottom: 10px;
 }
 
@@ -49,19 +50,20 @@ body {
 .components__block a {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #aa72cf;
-    color: white;
+    background-color: #8A784E;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
+/*Al pasar por encima de el boton, se evidencia un cambio de color*/
 .components__block a:hover {
-    background-color: #d92ed0;
+    background-color: #BBD8A3;
 }
 
-/* Responsividad sin flex ni grid */
-@media screen and (max-width: 600px) {
+/* media querie para darle una mejor vista en diferentes tamaños*/
+@media(max-width: 1024px) {
     .components__block {
         width: 90%;
     }

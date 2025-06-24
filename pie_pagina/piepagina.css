@@ -1,5 +1,5 @@
 .footer {
-    background: #333;
+    background: #463935;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -11,6 +11,9 @@
     bottom: 0;
     left: 0;
     width: 100%;
+}
+.footer:hover{
+    background:#af867b;
 }
 
 .footer__text {
